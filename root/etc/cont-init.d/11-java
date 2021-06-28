@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Find Java
+
+echo "[cont-init.d] 11-java-home: **** Setting JAVA_HOME variable ****"
+FIND_JAVA=$(find / -name 'java' | grep -E '/usr/lib/jvm/java-8-openjdk-\w*/bin/java' | sed 's!/bin/java!!' )
+JAVA_HOME="$FIND_JAVA"
+
+# Write location to different files so it should be available everywhere
+
+echo "JAVA_HOME=$FIND_JAVA" \
+  >> /etc/bash.bashrc
+echo "JAVA_HOME=$FIND_JAVA" \
+  >> /etc/environment
+
+export JAVA_HOME="$FIND_JAVA"
+
+export PATH="$JAVA_HOME/bin:$PATH"
+
+source /etc/environment
+
+echo "[cont-init.d] 11-java-home: $FIND_JAVA"
+
+export TEST=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
+
+echo "Test is: $TEST"
