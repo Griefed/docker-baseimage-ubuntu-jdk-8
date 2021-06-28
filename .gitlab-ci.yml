@@ -4,12 +4,11 @@ stages:
   - build
 
 test docker:
-  image: docker:latest
+  image: griefed/docker-with-buildx:latest
   stage: test
   services:
     - name: docker:dind
       alias: docker
-      command: ["--experimental"]
   variables:
     project_name: $CI_PROJECT_NAME
     SEMANTIC_RELEASE_PACKAGE: $CI_PROJECT_NAME
@@ -53,12 +52,11 @@ release:
       - $CI_COMMIT_TITLE =~ /^RELEASE:.+$/
 
 build:
-  image: docker:latest
+  image: griefed/docker-with-buildx:latest
   stage: build
   services:
     - name: docker:dind
       alias: docker
-      command: ["--experimental"]
   variables:
     project_name: $CI_PROJECT_NAME
     SEMANTIC_RELEASE_PACKAGE: $CI_PROJECT_NAME
