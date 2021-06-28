@@ -21,6 +21,5 @@ source /etc/environment
 
 echo "[cont-init.d] 11-java-home: $FIND_JAVA"
 
-export TEST=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
-
-echo "Test is: $TEST"
+# export TEST=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
+# echo "Test is: $TEST"
