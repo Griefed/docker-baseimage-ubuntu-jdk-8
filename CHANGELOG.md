@@ -1,3 +1,10 @@
+### [1.0.1](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.0...1.0.1) (2021-06-28)
+
+
+### 👀 Reverts
+
+* Comment out update-alternatives. Will make use of it should it be needed. Needs tests ([6a63c17](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/6a63c172be83ee6b3451b5431abfd2d420d1b2c6))
+
 ## [1.0.0](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/...1.0.0) (2021-06-28)
 
 
