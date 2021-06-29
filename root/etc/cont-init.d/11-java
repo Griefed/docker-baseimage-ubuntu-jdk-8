@@ -6,20 +6,24 @@ echo "[cont-init.d] 11-java-home: **** Setting JAVA_HOME variable ****"
 FIND_JAVA=$(find / -name 'java' | grep -E '/usr/lib/jvm/java-8-openjdk-\w*/bin/java' | sed 's!/bin/java!!' )
 JAVA_HOME="$FIND_JAVA"
 
-# Write location to different files so it should be available everywhere
+# Write location to different files so it should be available everywhere. Update PATH as well.
+echo PATH="$JAVA_HOME/bin:$PATH" > /etc/environment
 
 echo "JAVA_HOME=$FIND_JAVA" \
   >> /etc/bash.bashrc
 echo "JAVA_HOME=$FIND_JAVA" \
   >> /etc/environment
+echo "JRE_HOME=$FIND_JAVA/jre" \
+  >> /etc/bash.bashrc
+echo "JRE_HOME=$FIND_JAVA/jre" \
+  >> /etc/environment
 
-export JAVA_HOME="$FIND_JAVA"
-
+export "JAVA_HOME=$FIND_JAVA"
+export "JRE_HOME=$FIND_JAVA/jre"
 export PATH="$JAVA_HOME/bin:$PATH"
 
 source /etc/environment
 
-echo "[cont-init.d] 11-java-home: $FIND_JAVA"
-
-# export TEST=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\)\/bin\/javac/\1/p')
-# echo "Test is: $TEST"
+echo "[cont-init.d] 11-java-home: Java JDK at: $JAVA_HOME"
+echo "[cont-init.d] 11-java-home: Java JRE at: $JRE_HOME"
+echo "[cont-init.d] 11-java-home: New PATH: $PATH"
