@@ -1,3 +1,15 @@
+### [1.0.3](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.2...1.0.3) (2021-06-29)
+
+
+### 🦊 CI/CD
+
+* Fix wrong setting in GitHub CI ([82d9207](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/82d92075ddb20b8bdfbc3da4fb50a1692edcb83b))
+
+
+### 🛠 Fixes
+
+* Default ARGs for date and version (really I just needed a reason to trigger a new release to test the GitHub workflow) ([a06063a](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/a06063a6c5fa6d3a810ccc6677520b5055d7aeb0))
+
 ### [1.0.2](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.1...1.0.2) (2021-06-29)
 
 
