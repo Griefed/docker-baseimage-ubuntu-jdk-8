@@ -1,3 +1,10 @@
+### [1.0.4](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.3...1.0.4) (2021-06-29)
+
+
+### 🛠 Fixes
+
+* Well that excuse wasn't needed, I actually had to fix something. GitHub workflow was broken due to github.ref outputting refs/tags/foobar ([b887725](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/b8877250cee99c19b9e49aecda3f9a583c31e771))
+
 ### [1.0.3](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.2...1.0.3) (2021-06-29)
 
 
