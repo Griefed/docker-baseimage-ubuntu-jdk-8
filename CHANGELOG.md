@@ -1,3 +1,15 @@
+### [1.0.2](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.1...1.0.2) (2021-06-29)
+
+
+### 🦊 CI/CD
+
+* Make sure releases on GitHub are created as well. ([eda2e01](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/eda2e01a71884f9b81ac41e419ca2068af154971))
+
+
+### 🛠 Fixes
+
+* Setup JRE_HOME as well as PATH correctly. ([16097c7](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/16097c7e6be295cec6805061c6821ad162fd3a23))
+
 ### [1.0.1](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.0...1.0.1) (2021-06-28)
 
 
