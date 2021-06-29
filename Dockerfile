@@ -1,7 +1,7 @@
 FROM griefed/baseimage-ubuntu:latest
 
-ARG BUILD_DATE="PassMeTheDateMate"
-ARG VERSION="ChangeMe"
+ARG BUILD_DATE="Jun 28, 2021 7:44pm GMT+0200"
+ARG VERSION="repocreation"
 LABEL build_version="Git.Griefed.de version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="Griefed <griefed@griefed.de>"
 LABEL description="This image adds OpenJDK 8 JDK to griefed/baseimage-ubuntu."
