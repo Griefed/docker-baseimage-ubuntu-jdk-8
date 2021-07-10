@@ -1,4 +1,4 @@
-FROM griefed/baseimage-ubuntu:latest
+FROM griefed/baseimage-ubuntu:1.4.0
 
 ARG BUILD_DATE="Jun 28, 2021 7:44pm GMT+0200"
 ARG VERSION="repocreation"
