@@ -1,3 +1,12 @@
+### [1.0.5](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.4...1.0.5) (2021-07-10)
+
+
+### 🦊 CI/CD
+
+* Explicitly state baseimage version ([8a22e01](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/8a22e01fc82ed2fb4c3695b9b057ac4448d27b1a))
+* Fix "breaking" type ([41238c7](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/41238c711561dc54bf2f0e80717e5e53db9378e1))
+* Move Docker build for GitHub container registry to GitLab ([6578739](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/6578739690bcc62141c44f4555b0eb3763f29e3d))
+
 ### [1.0.4](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.3...1.0.4) (2021-06-29)
 
 
