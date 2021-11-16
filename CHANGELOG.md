@@ -1,3 +1,17 @@
+## [2.0.0](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.5...2.0.0) (2021-11-16)
+
+
+### 🦊 CI/CD
+
+* Switch image to gitlab-ci-cd which provides for all jobs ([685dd8d](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/685dd8d1e754bdcaa264d69fd1666af8f745a7b0))
+
+
+### Other
+
+* Add GitLab issue templates ([16aebf6](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/16aebf64b0f739046d4f65ecf0930002c8471381))
+* **deps:** update griefed/gitlab-ci-cd docker tag to v1.0.1 ([4e6c2b3](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/4e6c2b329a7baf5bf0d86f6fdf672bcf840549f2))
+* **deps:** update griefed/gitlab-ci-cd docker tag to v1.0.3 ([3f0e162](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/3f0e16289fbd738ac495ef5c1ca7cdefab9a4164))
+
 ### [1.0.5](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/1.0.4...1.0.5) (2021-07-10)
 
 
