@@ -4,7 +4,7 @@ stages:
   - build
 
 test docker:
-  image: griefed/gitlab-ci-cd:1.0.1
+  image: griefed/gitlab-ci-cd:1.0.3
   stage: test
   services:
     - name: docker:dind
@@ -36,7 +36,7 @@ test docker:
 release:
   needs: ['test docker']
   stage: release
-  image: griefed/gitlab-ci-cd:1.0.1
+  image: griefed/gitlab-ci-cd:1.0.3
   services:
     - name: docker:dind
       alias: docker
@@ -54,7 +54,7 @@ release:
       - $CI_COMMIT_TITLE =~ /^RELEASE:.+$/
 
 build:
-  image: griefed/gitlab-ci-cd:1.0.1
+  image: griefed/gitlab-ci-cd:1.0.3
   stage: build
   services:
     - name: docker:dind
