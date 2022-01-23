@@ -1,3 +1,15 @@
+### [2.0.2](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.1...2.0.2) (2022-01-23)
+
+
+### 👀 Reverts
+
+* Build for armv7 again thanks to [@djmaze](https://git.griefed.de/djmaze) and their dind-image-with-armhf available at https://github.com/djmaze/dind-image-with-armhf ([1dff0d7](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/1dff0d7cae081e7c98db32b6b5a928bfeb4272ee))
+
+
+### Other
+
+* **deps:** update griefed/gitlab-ci-cd docker tag to v2 ([c83b6a7](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/c83b6a7eab0b9be280073e512c789abe6cad984e))
+
 ### [2.0.1](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.0...2.0.1) (2022-01-21)
 
 
