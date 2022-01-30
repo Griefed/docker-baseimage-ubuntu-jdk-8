@@ -3,15 +3,16 @@ stages:
   - release
   - build
 
+image: griefed/gitlab-ci-cd:2.0.0
+services:
+  - name: docker:dind
+    alias: docker
+variables:
+  project_name: $CI_PROJECT_NAME
+  SEMANTIC_RELEASE_PACKAGE: $CI_PROJECT_NAME
+
 test docker:
-  image: griefed/gitlab-ci-cd:2.0.0
   stage: test
-  services:
-    - name: docker:dind
-      alias: docker
-  variables:
-    project_name: $CI_PROJECT_NAME
-    SEMANTIC_RELEASE_PACKAGE: $CI_PROJECT_NAME
   before_script:
     - docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_TOKEN" docker.io
     - docker login -u "$DOCKERHUB_USER" -p "$GITHUB_TOKEN" ghcr.io
@@ -35,13 +36,6 @@ test docker:
 release:
   needs: ['test docker']
   stage: release
-  image: griefed/gitlab-ci-cd:2.0.0
-  services:
-    - name: docker:dind
-      alias: docker
-  variables:
-    project_name: $CI_PROJECT_NAME
-    SEMANTIC_RELEASE_PACKAGE: $CI_PROJECT_NAME
   script:
     - npx semantic-release
   only:
@@ -53,14 +47,7 @@ release:
       - '$CI_COMMIT_TITLE =~ /^RELEASE:.+$/ || $CI_PIPELINE_SOURCE == "schedule"'
 
 build:
-  image: griefed/gitlab-ci-cd:2.0.0
   stage: build
-  services:
-    - name: docker:dind
-      alias: docker
-  variables:
-    project_name: $CI_PROJECT_NAME
-    SEMANTIC_RELEASE_PACKAGE: $CI_PROJECT_NAME
   before_script:
     - docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_TOKEN" docker.io
     - docker login -u "$DOCKERHUB_USER" -p "$GITHUB_TOKEN" ghcr.io
