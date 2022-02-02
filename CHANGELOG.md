@@ -1,3 +1,18 @@
+### [2.0.3](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.2...2.0.3) (2022-02-02)
+
+
+### 🦊 CI/CD
+
+* Update installed packages. ([9cc9fd9](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/9cc9fd9be95bc98fbde2077f6790930bfe9cfc32))
+* Check packages for updates and trigger pack release when new packages are available ([725021b](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/725021b8406f9c3f6f47459336d100e75130f53a))
+* Correctly checkout repository ([fc9cdf6](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/fc9cdf6a60587d6b3acce13a4b1d3847731f0f16))
+* Prevent regular jobs from running on schedule ([7942579](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/794257915354e146aef7b8dd3476fae1d87ca952))
+
+
+### Other
+
+* Add list of package versions. ([9ef0626](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/9ef062683b2aa4d1ef0fae008e6b643ca4b59f4c))
+
 ### [2.0.2](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.1...2.0.2) (2022-01-23)
 
 
