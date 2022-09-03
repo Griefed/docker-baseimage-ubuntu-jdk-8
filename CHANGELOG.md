@@ -1,3 +1,16 @@
+## [2.0.13](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.12...2.0.13) (2022-09-03)
+
+
+### 🦊 CI/CD
+
+* Update installed packages in Docker container. ([439bf1f](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/439bf1fd10b48cdadcd73c8c4d1c0c8a511d2b35))
+
+
+### Other
+
+* **deps:** update dependency ghcr.io/griefed/gitlab-ci-cd to v2.0.9 ([135e2a5](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/135e2a577038cb4b7007cd752ba4d3b4c40e27ab))
+* **deps:** update dependency griefed/baseimage-ubuntu to v2.1.10 ([8f937a5](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/8f937a5c1d3656166d4fe1aa3b4254f2c55ed777))
+
 ## [2.0.12](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.11...2.0.12) (2022-08-03)
 
 
