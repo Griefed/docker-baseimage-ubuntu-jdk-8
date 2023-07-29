@@ -3,10 +3,10 @@ stages:
   - release
   - build
 
-image: ghcr.io/griefed/gitlab-ci-cd:2.2.9
+image: docker.griefed.dev/griefed/gitlab-ci-cd:2.2.9
 
 services:
-  - name: ghcr.io/griefed/gitlab-ci-cd:2.2.9
+  - name: docker.griefed.dev/griefed/gitlab-ci-cd:2.2.9
     alias: docker
 
 variables:
