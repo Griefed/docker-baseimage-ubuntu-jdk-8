@@ -1,3 +1,41 @@
+## [2.0.22](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.21...2.0.22) (2023-07-03)
+
+
+### 🦊 CI/CD
+
+* Update installed packages in Docker container. ([a924346](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/a9243464a674a1feb4a6c646bde751e0da5b6d0d))
+
+
+### Other
+
+* **deps:** update ghcr.io/griefed/gitlab-ci-cd docker tag to v2.2.11 ([0e679c9](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/0e679c9d2456c9ece24ac55debea93b010d94761))
+* **deps:** update griefed/baseimage-ubuntu docker tag to v2.1.19 ([ff65b15](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/ff65b152a20abbd5c6c93c7e7e81c34b45182c82))
+
+## [2.0.21](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.20...2.0.21) (2023-06-03)
+
+
+### 🦊 CI/CD
+
+* Update installed packages in Docker container. ([e603f4f](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/e603f4f83a5869e3b6131c12b1e573340867a1a2))
+
+
+### Other
+
+* **deps:** update ghcr.io/griefed/gitlab-ci-cd docker tag to v2.2.10 ([7ee279c](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/7ee279c859bdd7265df2fa426c44075ff59d2d92))
+* **deps:** update griefed/baseimage-ubuntu docker tag to v2.1.18 ([2bdb53f](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/2bdb53facac5c6f3007f5501a75ef8ed6594838d))
+
+## [2.0.20](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.19...2.0.20) (2023-05-03)
+
+
+### 🦊 CI/CD
+
+* Update installed packages in Docker container. ([fc0fed9](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/fc0fed9d53c7e22f2cc9a5b01604680c6ef10d99))
+
+
+### Other
+
+* **deps:** update griefed/baseimage-ubuntu docker tag to v2.1.17 ([a869e4c](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/a869e4c11b8a7fbbebc004cb187e8be151a928bd))
+
 ## [2.0.19](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.18...2.0.19) (2023-04-03)
 
 
