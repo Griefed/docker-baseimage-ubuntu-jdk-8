@@ -1,3 +1,10 @@
+## [2.0.30](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.29...2.0.30) (2024-05-03)
+
+
+### 🦊 CI/CD
+
+* Update installed packages in Docker container. ([ec89f09](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/commit/ec89f09a4cf2969d200ef64cd2e65b1ddb757d45))
+
 ## [2.0.29](https://git.griefed.de/prosper/docker-baseimage-ubuntu-jdk-8/compare/2.0.28...2.0.29) (2024-04-03)
 
 
